@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@utility text-preset1 {
+  @apply text-[9rem] leading-[100%] tracking-normal font-medium;
+}
+
+@utility text-preset2-medium {
+  @apply text-[4rem] leading-[100%] tracking-normal font-medium;
+}
+
+@utility text-preset2-light {
+  @apply text-[4rem] leading-[100%] tracking-normal font-light;
+}
+
+@utility text-preset3 {
+  @apply text-4xl leading-[120%] tracking-normal font-medium;
+}
+
+@utility text-preset4 {
+  @apply text-[1.75rem] leading-[100%] tracking-normal font-medium;
+}
+
+@utility text-preset5-medium {
+  @apply text-2xl leading-[150%] tracking-normal font-medium;
+}
+
+@utility text-preset5-regular {
+  @apply text-2xl leading-[150%] tracking-normal font-normal;
+}
+
+@utility text-preset6 {
+  @apply text-xl leading-[150%] tracking-normal italic;
+}
+
+@utility textMobil-preset1 {
+  @apply text-[5.5rem] leading-[100%] tracking-normal font-medium;
+}
+
+@utility textMobil-preset2-medium {
+  @apply text-[2.5rem] leading-[100%] tracking-normal font-medium;
+}
+
+@utility textMobil-preset2-light {
+  @apply text-[2.5rem] leading-[100%] tracking-normal font-light;
+}
+
+@utility textMobil-preset3 {
+  @apply text-xl leading-[120%] tracking-normal font-medium;
+}
+
+@utility textMobil-preset4 {
+  @apply text-lg leading-[100%] tracking-normal font-medium;
+}
+
+@utility textMobil-preset5 {
+  @apply text-sm leading-[150%] tracking-normal italic;
+}
+
+
+
+
+
+@theme {
+  --color-grey500: #626C7F;
+  --color-grey50: #F4F6FA;
+  --color-blue950: #2D3949;
+  --color-blue900: #313E51;
+  --color-blue850: #3B4D66;
+  --color-blue500: #306AFF;
+  --color-blue300: #ABC1E1;
+  --color-blue100: #EDF1F9;
+  --color-blue50: #EBF0FF;
+  --color-green500: #2FD887;
+  --color-green100: #E0FDEF;
+  --color-purple600: #A729F5;
+  --color-purple100: #F6E7FF;
+  --color-orange400: #FF7E35;
+  --color-orange50: #FFF5ED;
+  --color-red500: #EE5454;
+}
+
+body {
+  background-color: #F4F6FA;
+  font-family: "Rubik", sans-serif;
+}
+
+.dark {
+  background-color: #313E51;
+
+}
