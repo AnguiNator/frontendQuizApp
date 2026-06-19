@@ -8,10 +8,10 @@ Reto de Frontend Mentor que consiste en una aplicación de quiz interactiva sobr
 ## 📸 Capturas de pantalla
 
 ### 📱 Vista Mobile
-![Mobile](./screenshots/Mobil.png)
+![Mobile](./src/screenshots/Mobil.png)
 
 ### 💻 Vista Desktop
-![Desktop](./screenshots/Desktop.png)
+![Desktop](./src/screenshots/Desktop.png)
 
 ---
 
@@ -43,5 +43,5 @@ Reto de Frontend Mentor que consiste en una aplicación de quiz interactiva sobr
 ---
 
 ## 👨‍💻 Autor
-**Anguiano**  
-[GitHub](https://github.com/anguiano)
+**Jesus Anguiano**  
+[GitHub](https://github.com/AnguiNator)
